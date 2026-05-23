@@ -1,0 +1,16 @@
+module uart_tx(
+    input clk,
+    input tx_start,
+    input [7:0] data_in,
+    output reg tx
+);
+
+always @(posedge clk)
+begin
+    if(tx_start)
+    begin
+        tx <= data_in[0];
+    end
+end
+
+endmodule
