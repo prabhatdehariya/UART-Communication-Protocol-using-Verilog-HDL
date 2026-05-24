@@ -43,11 +43,6 @@ The project was simulated using ModelSim and synthesized using Xilinx Vivado.
 
 ---
 
-## Simulation Output
-(Add waveform image here)
-
----
-
 ## Applications
 - Serial communication
 - Embedded systems
